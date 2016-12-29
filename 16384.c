@@ -262,8 +262,8 @@ void initBoard(uint8_t board[SIZE][SIZE]) {
 			board[x][y]=0;
 		}
 	}
-	addRandom(board);
-	addRandom(board);
+	for (int i=0; i<4; i++)
+		addRandom(board);
 	drawBoard(board);
 	score = 0;
 }
