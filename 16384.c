@@ -17,7 +17,7 @@
 #include <time.h>
 #include <signal.h>
 
-#define SIZE 4
+#define SIZE 8
 uint32_t score=0;
 uint8_t scheme=0;
 
@@ -43,7 +43,7 @@ void drawBoard(uint8_t board[SIZE][SIZE]) {
 	char color[40], reset[] = "\033[m";
 	printf("\033[H");
 
-	printf("2048.c %17d pts\n\n",score);
+	printf("16384.c %17d pts\n\n",score);
 
 	for (y=0;y<SIZE;y++) {
 		for (x=0;x<SIZE;x++) {
