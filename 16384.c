@@ -123,6 +123,10 @@ bool slideArray(uint8_t array[SIZE]) {
 				} else if (array[t]==array[x]) {
 					// merge (increase power of two)
 					array[t]++;
+
+					int multiply = rand() % 500;
+					if (multiply > 493) array[t]++;
+
 					// increase score
 					score+=(uint32_t)1<<array[t];
 					// set stop to avoid double merge
