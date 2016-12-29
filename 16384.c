@@ -1,8 +1,12 @@
 /*
  ============================================================================
+ Name        : 16384.c
+ Author      : Eli Joseph Bradley
+ Description : Console version of the game "16384" (https://github.com/aNNiMON/16384) for GNU/Linux
+ ============================================================================
  Name        : 2048.c
  Author      : Maurits van der Schee
- Description : Console version of the game "2048" for GNU/Linux
+ Description : Console version of the game "2048" (https://github.com/gabrielecirulli/2048) for GNU/Linux
  ============================================================================
  */
 
