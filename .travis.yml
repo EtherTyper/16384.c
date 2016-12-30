@@ -22,4 +22,4 @@ matrix:
             - clang-3.7
       env: COMPILER=clang-3.7
 # Change this to your needs
-script: make
+script: make CC=$COMPILER
