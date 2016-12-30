@@ -6,3 +6,6 @@ all: 16384
 
 clean:
 	rm -f 16384
+
+test:
+	./16384 test
