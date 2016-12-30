@@ -5,7 +5,7 @@ compiler:
 addons:
   apt:
     packages:
-      - gcc-6.3
+      - gcc-5
       - clang-3.9
 # Change this to your needs
 script: make
