@@ -4,7 +4,7 @@ compiler:
   - clang
 addons:
   apt:
-    sources:
+    packages:
       - gcc-6.3
       - clang-3.9
 # Change this to your needs
