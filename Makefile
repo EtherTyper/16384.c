@@ -1,8 +1,8 @@
-CFLAGS += -std=c99
+CFLAGS += -std=c11
 
 .PHONY: all clean
 
-all: 2048
+all: 16384
 
 clean:
-	rm -f 2048
+	rm -f 16384
